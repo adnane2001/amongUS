@@ -1,0 +1,243 @@
+body{
+margin: 0;
+padding: 0;
+background-color: black;
+overflow: hidden;
+}
+
+.theskeld, .polus, .mirahq{
+position: absolute;
+left: 15%;
+top: 5%;
+z-index: 2;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 75%;
+}
+
+.particles-js{
+height: 100vh;
+position: absolute;
+top: 0;
+right: 0;
+z-index: -11;
+}
+
+button{
+margin: 200%;
+background-color: black;
+border: solid 2px red;
+color: white;
+border-radius: 5px;
+}
+
+.buttons{
+display: flex;
+justify-content: center;
+flex-basis: auto;
+z-index: 2;
+}
+
+.polus, .theskeld{
+display: none;
+}
+
+button{
+margin: 0.5%;
+}
+
+.crewmate1{
+position: absolute;
+z-index: 10;
+width: 4%;
+position: absolute;
+bottom: 10px;
+left: 5%;
+}
+
+.crewmate2{
+position: absolute;
+z-index: 10;
+width: 4%;
+position: absolute;
+bottom: 10px;
+left: 10%;
+}
+
+.crewmate3{
+position: absolute;
+z-index: 10;
+width: 4%;
+position: absolute;
+bottom: 10px;
+left: 15%;
+}
+
+.crewmate4{
+position: absolute;
+z-index: 10;
+width: 4%;
+position: absolute;
+bottom: 10px;
+left: 20%;
+}
+
+.crewmate5{
+position: absolute;
+z-index: 10;
+width: 4%;
+position: absolute;
+bottom: 10px;
+left: 25%;
+}
+
+.crewmate6{
+position: absolute;
+z-index: 10;
+width: 4%;
+position: absolute;
+bottom: 10px;
+left: 30%;
+}
+
+.crewmate7{
+position: absolute;
+z-index: 10;
+width: 4%;
+position: absolute;
+bottom: 10px;
+left: 35%;
+}
+
+.crewmate8{
+position: absolute;
+z-index: 10;
+width: 3%;
+position: absolute;
+bottom: 14px;
+left: 40%;
+}
+
+.crewmate9{
+position: absolute;
+z-index: 10;
+width: 3%;
+position: absolute;
+bottom: 14px;
+left: 45%;
+}
+
+.crewmate10{
+position: absolute;
+z-index: 10;
+width: 3%;
+position: absolute;
+bottom: 14px;
+left: 50%;
+}
+
+.crewmate11{
+position: absolute;
+z-index: 10;
+width: 3%;
+position: absolute;
+bottom: 15px;
+left: 55%;
+}
+
+.crewmate12{
+position: absolute;
+z-index: 10;
+width: 4%;
+position: absolute;
+bottom: 14px;
+left: 60%;
+}
+
+.corpse1{
+position: absolute;
+z-index: 10;
+width: 4%;
+position: absolute;
+bottom: 14px;
+left: 80%;
+}
+
+.corpse2{
+position: absolute;
+z-index: 10;
+width: 4%;
+position: absolute;
+bottom: 14px;
+left: 85%;
+}
+
+.corpse3{
+position: absolute;
+z-index: 10;
+width: 4%;
+position: absolute;
+bottom: 14px;
+left: 90%;
+}
+
+.corpse4{
+position: absolute;
+z-index: 10;
+width: 4%;
+position: absolute;
+bottom: 14px;
+left: 95%;
+}
+
+@media only screen and (max-width: 1700px) {
+
+/* .theskeld, .polus, .mirahq{
+    width: 100%;
+    left: 0;
+}
+
+.crewmates > img{
+    width: 10%;
+}
+    
+
+.crewmate7{
+left: 5%;
+bottom: 10%;
+width: 10%;
+}
+
+.crewmate8{
+left: 10%;
+bottom: 10%;
+}
+
+.crewmate9{
+left: 15%;
+bottom: 10%;
+}
+
+.crewmate10{
+left: 20%;
+bottom: 10%;
+}
+
+.crewmate11{
+left: 25%;
+bottom: 10%;
+}
+
+.crewmate12{
+left: 30%;
+bottom: 10%;
+} */
+
+body{
+    position: absolute;
+    background: black;
+    z-index: 100;
+}
+
+  }
